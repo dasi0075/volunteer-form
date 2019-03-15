@@ -6,3 +6,8 @@ html {
   background-color: #6e8c62;
   color: #fff;
 }
+
+.footer {
+  padding: 2em;
+  background-color: #70ad55;
+}

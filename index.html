@@ -82,20 +82,26 @@
           <option>Yukon</option>
         </select>
       </div>
-      <div class="push">
-        <label for="subject">What activities are you interested in helping with?</label>
-        <select id="subject">
-          <option>Digging holes</option>
-          <option>Getting dirty</option>
-          <option>Lifting heavy objects</option>
-          <option>Driving people</option>
-          <option>Transporting trees</option>
-          <option>Taking photos</option>
-          <option>Online publishing</option>
-          <option>Managing people</option>
-        </select>
-      </div>
 
+      <fieldset>
+        <legend>What activities are you interested in helping with?</legend>
+        <input id="digging" type="checkbox">
+        <label for="digging">Digging holes</label>
+        <input id="dirty" type="checkbox">
+        <label for="dirty">Getting dirty</label>
+        <input id="lifting" type="checkbox">
+        <label for="lifting">Lifting heavy objects</label>
+        <input id="driving" type="checkbox">
+        <label for="driving">Driving people</label>
+        <input id="transporting" type="checkbox">
+        <label for="transporting">Transporting trees</label>
+        <input id="photos" type="checkbox">
+        <label for="photos">Taking photos</label>
+        <input id="publishing" type="checkbox">
+        <label for="publishing">Online publishing</label>
+        <input id="managing" type="checkbox">
+        <label for="managing">Managing people</label>
+      </fieldset>
       <fieldset>
         <legend>Do you have any experience with the following?</legend>
         <input id="shovels" type="checkbox">
@@ -144,12 +150,12 @@
         <label for="details">Please let us know any comments or questions you may have.</label>
         <textarea id="details" required></textarea>
       </div>
-        <div>
-          <button class="btn btn-light mega" type="submit">Apply</button>
-        </div>
+      <div>
+        <button class="btn btn-light mega" type="submit">Apply</button>
+      </div>
+      <div class="footer">
         <footer>© Tree Hugger International Organization</footer>
       </div>
-
     </div>
   </section>
 </body>
