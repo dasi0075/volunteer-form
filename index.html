@@ -18,52 +18,60 @@
         <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.<p>
       </div>
       <div>
-      <h2>Personal details</h2>
-      <div class="">
-        <label for="name">Full Name</label>
-        <input id="name" required>
-        <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+        <h2>Personal details</h2>
+        <div class="">
+          <label for="name">Full Name</label>
+          <input id="name" required>
+          <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+        </div>
+        <div class="">
+          <label for="nickname">What should we call you?</label>
+          <input id="nickname" required>
+          <p>What all your friends call you, e.g. “Liz”.</p>
+        </div>
+        <div class="push">
+          <label for="age">Date of Birth </label>
+          <input id="age" placeholder="yyyy-mm-dd">
+        </div>
+        <div class="push">
+          <label for="subject">T-shirt size</label>
+          <select id="subject" placeholder="Select a t-shirt size">
+            <option>Fitted: XS</option>
+            <option>Fitted: S</option>
+            <option>Fitted: M</option>
+            <option>Fitted: L</option>
+            <option>Fitted: XL</option>
+            <option>Straight-cut: XS</option>
+            <option>Straight-cut: S</option>
+            <option>Straight-cut: M</option>
+            <option>Straight-cut: L</option>
+            <option>Straight-cut: XL</option>
+          </select>
+        </div>
+        <div class="push">
+          <label for="email">Your email</label>
+          <input id="email" type="email" placeholder="me@me.com" required>
+        </div>
+        <div class="">
+            <label for="address">Phone number (optional)</label>
+            <input id="address" required>
+        </div>
       </div>
-      <div class="">
-        <label for="nickname">What should we call you?</label>
-        <input id="nickname" required>
-        <p>What all your friends call you, e.g. “Liz”.</p>
+      <div>
+        <h2>Address</h2>
+        <div class="">
+            <label for="address">Street address</label>
+            <input id="address" required>
+        </div>
+        <div class="">
+            <label for="city">City</label>
+            <input id="city" required>
+        </div>
+        <div class="">
+            <label for="postalcode">Postal code</label>
+            <input id="postalcode" required>
+        </div>
       </div>
-      <div class="push">
-        <label for="age">Date of Birth</label>
-        <input id="age" required>
-      </div>
-      <div class="push">
-        <label for="subject">T-shirt size</label>
-        <select id="subject" placeholder="Select a t-shirt size">
-          <option>Fitted: XS</option>
-          <option>Fitted: S</option>
-          <option>Fitted: M</option>
-          <option>Fitted: L</option>
-          <option>Fitted: XL</option>
-          <option>Straight-cut: XS</option>
-          <option>Straight-cut: S</option>
-          <option>Straight-cut: M</option>
-          <option>Straight-cut: L</option>
-          <option>Straight-cut: XL</option>
-        </select>
-      </div>
-      <div class="push">
-        <label for="email">Your email</label>
-        <input id="email" type="email" placeholder="me@me.com" required>
-      </div>
-
-      Phone number (optional)
-
-      <div class="">
-          <label for="address">Address</label>
-          <input id="address" required>
-      </div>
-
-      Street address
-      City
-      Postal code
-
       <div class="push">
         <label for="subject">Province</label>
         <select id="subject" placeholder="Select a province">
@@ -153,9 +161,9 @@
       <div>
         <button class="btn btn-light mega" type="submit">Apply</button>
       </div>
-      <div class="footer">
-        <footer>© Tree Hugger International Organization</footer>
-      </div>
+    </div>
+    <div class="footer">
+      <footer>© Tree Hugger International Organization</footer>
     </div>
   </section>
 </body>
