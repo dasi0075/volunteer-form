@@ -12,3 +12,9 @@ html {
   padding: 2em;
   background-color: #70ad55;
 }
+
+.header {
+  background-color: #70ad55;
+  color: #fff;
+  padding: 2em;
+}
