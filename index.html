@@ -12,24 +12,24 @@
 </head>
 <body>
   <section>
-    <div class="header max-lenght">
+    <div class="header">
       <div>
         <h1>Apply to be a tree planter</h1>
         <p>Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.<p>
       </div>
     </div>
-    <div class="island">
+    <div class="island wrapper">
       <div class="push">
         <h2>Personal details</h2>
         <div class="">
           <label for="name">Full Name</label>
           <input id="name" required>
-          <p>Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+          <p class="nano">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
         </div>
         <div class="">
           <label for="nickname">What should we call you?</label>
           <input id="nickname" required>
-          <p>What all your friends call you, e.g. “Liz”.</p>
+          <p class="nano">What all your friends call you, e.g. “Liz”.</p>
         </div>
         <div class="push">
           <label for="age">Date of Birth </label>
@@ -55,8 +55,8 @@
           <input id="email" type="email" placeholder="me@me.com" required>
         </div>
         <div class="">
-            <label for="address">Phone number (optional)</label>
-            <input id="address" required>
+            <label for="tel">Phone number (optional)</label>
+            <input id="tel" required>
         </div>
       </div>
       <div class="push">
@@ -93,8 +93,8 @@
         </select>
       </div>
 
-      <fieldset>
-        <legend>What activities are you interested in helping with?</legend>
+      <fieldset class="push">
+        <legend class="bold">What activities are you interested in helping with?</legend>
         <input id="digging" type="checkbox">
         <label for="digging">Digging holes</label>
         <input id="dirty" type="checkbox">
@@ -112,7 +112,7 @@
         <input id="managing" type="checkbox">
         <label for="managing">Managing people</label>
       </fieldset>
-      <fieldset>
+      <fieldset class="push">
         <legend>Do you have any experience with the following?</legend>
         <input id="shovels" type="checkbox">
         <label for="shovels">Shovels</label>
@@ -135,7 +135,7 @@
         <input id="speaking" type="checkbox">
         <label for="speaking">Speaking to groups</label>
       </fieldset>
-      <fieldset>
+      <fieldset class="push">
         <legend>Do you have a valid driver’s license?</legend>
         <input id="yes" type="radio" name="agree">
         <label for="yes">Yes</label>
@@ -160,12 +160,12 @@
         <label for="details">Please let us know any comments or questions you may have.</label>
         <textarea id="details" required></textarea>
       </div>
-      <div>
-        <button class="btn btn-light mega" type="submit">Apply</button>
+      <div class="center-text">
+        <button class="btn btn-light" type="submit">Apply</button>
       </div>
     </div>
     <div class="footer">
-      <footer class="">© Tree Hugger International Organization</footer>
+      <footer class="micro">© Tree Hugger International Organization</footer>
     </div>
   </section>
 </body>
