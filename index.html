@@ -21,9 +21,9 @@
     <div class="island wrapper">
       <div class="push">
         <h2>Personal details</h2>
-        <div class="">
+        <div>
           <label for="name">Full Name</label>
-          <input id="name" required>
+          <input id="name" name="Fullname" required>
           <p class="nano">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
         </div>
         <div class="">
@@ -32,12 +32,12 @@
           <p class="nano">What all your friends call you, e.g. “Liz”.</p>
         </div>
         <div class="push">
-          <label for="age">Date of Birth </label>
+          <label for="age">Date of Birth</label>
           <input id="age" placeholder="yyyy-mm-dd">
         </div>
         <div class="push">
           <label for="subject">T-shirt size</label>
-          <select id="subject" placeholder="Select a t-shirt size">
+          <select id="subject">
             <option>Fitted: XS</option>
             <option>Fitted: S</option>
             <option>Fitted: M</option>
@@ -95,45 +95,57 @@
 
       <fieldset class="push">
         <legend class="bold">What activities are you interested in helping with?</legend>
-        <input id="digging" type="checkbox">
-        <label for="digging">Digging holes</label>
-        <input id="dirty" type="checkbox">
-        <label for="dirty">Getting dirty</label>
-        <input id="lifting" type="checkbox">
-        <label for="lifting">Lifting heavy objects</label>
-        <input id="driving" type="checkbox">
-        <label for="driving">Driving people</label>
-        <input id="transporting" type="checkbox">
-        <label for="transporting">Transporting trees</label>
-        <input id="photos" type="checkbox">
-        <label for="photos">Taking photos</label>
-        <input id="publishing" type="checkbox">
-        <label for="publishing">Online publishing</label>
-        <input id="managing" type="checkbox">
-        <label for="managing">Managing people</label>
+        <div class="grid">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+            <input id="digging" type="checkbox">
+            <label for="digging">Digging holes</label>
+            <input id="dirty" type="checkbox">
+            <label for="dirty">Getting dirty</label>
+            <input id="lifting" type="checkbox">
+            <label for="lifting">Lifting heavy objects</label>
+            <input id="driving" type="checkbox">
+            <label for="driving">Driving people</label>
+            <input id="transporting" type="checkbox">
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+            <label for="transporting">Transporting trees</label>
+            <input id="photos" type="checkbox">
+            <label for="photos">Taking photos</label>
+            <input id="publishing" type="checkbox">
+            <label for="publishing">Online publishing</label>
+            <input id="managing" type="checkbox">
+            <label for="managing">Managing people</label>
+          </div>
+        </div>
       </fieldset>
       <fieldset class="push">
         <legend>Do you have any experience with the following?</legend>
-        <input id="shovels" type="checkbox">
-        <label for="shovels">Shovels</label>
-        <input id="gps" type="checkbox">
-        <label for="gps">Hand-held GPS</label>
-        <input id="blogging" type="checkbox">
-        <label for="blogging">Writing & blogging</label>
-        <input id="photography" type="checkbox">
-        <label for="photography">Photography</label>
-        <input id="trail" type="checkbox">
-        <label for="trail">Trail & hill climbing</label>
-        <input id="bush" type="checkbox">
-        <label for="bush">Bush craft</label>
-        <input id="atv" type="checkbox">
-        <label for="atv">ATVs</label>
-        <input id="plant" type="checkbox">
-        <label for="plant">Plant identification</label>
-        <input id="event" type="checkbox">
-        <label for="event">Special event planning</label>
-        <input id="speaking" type="checkbox">
-        <label for="speaking">Speaking to groups</label>
+        <div class="grid">
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island">
+            <input id="shovels" type="checkbox">
+            <label for="shovels">Shovels</label>
+            <input id="gps" type="checkbox">
+            <label for="gps">Hand-held GPS</label>
+            <input id="blogging" type="checkbox">
+            <label for="blogging">Writing & blogging</label>
+            <input id="photography" type="checkbox">
+            <label for="photography">Photography</label>
+            <input id="trail" type="checkbox">
+            <label for="trail">Trail & hill climbing</label>
+            <input id="bush" type="checkbox">
+          </div>
+          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island">
+            <label for="bush">Bush craft</label>
+            <input id="atv" type="checkbox">
+            <label for="atv">ATVs</label>
+            <input id="plant" type="checkbox">
+            <label for="plant">Plant identification</label>
+            <input id="event" type="checkbox">
+            <label for="event">Special event planning</label>
+            <input id="speaking" type="checkbox">
+            <label for="speaking">Speaking to groups</label>
+          </div>
+        <div>
       </fieldset>
       <fieldset class="push">
         <legend>Do you have a valid driver’s license?</legend>
