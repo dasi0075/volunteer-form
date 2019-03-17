@@ -6,11 +6,12 @@ html {
   background-color: #6e8c62;
   color: #fff;
   border-radius: 8px;
+  border-color: #6e8c62
 }
 
 .footer {
   color: #fff;
-  padding: 2em;
+  padding: 1em;
   background-color: #70ad55;
 }
 
