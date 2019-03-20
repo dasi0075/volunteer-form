@@ -12,30 +12,30 @@
 </head>
 <body>
   <section>
-    <div class="header">
-      <div class="">
-        <h1 class="push-1-2">Apply to be a tree planter</h1>
-        <p class="mega">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.<p>
-      </div>
-    </div>
-    <div class="island wrapper">
-      <div class="push">
-        <h2 class="pad-t-1-2">Personal details</h2>
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+    <header class="header">
+      <h1 class="push-1-2">Apply to be a tree planter</h1>
+      <p class="mega">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
+    </header>
+    <div class="island center-text wrapper">
+      <h2 class="pad-t-1-2">Personal details</h2>
+      <div class="grid push">
+        <div class="gutter-1-4 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
           <label for="name">Full Name</label>
           <input id="name" name="Fullname">
           <p class="nano">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
         </div>
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+        <div class="gutter-1-4 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
           <label for="nickname">What should we call you?</label>
           <input id="nickname" required>
           <p class="nano">What all your friends call you, e.g. “Liz”.</p>
         </div>
-        <div class="push unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+      </div>
+      <div class="grid push">
+        <div class="push gutter-1-4 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
           <label for="age">Date of Birth</label>
           <input id="age" placeholder="yyyy-mm-dd">
         </div>
-        <div class="push unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+        <div class="push gutter-1-4 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
           <label for="sizes">T-shirt size</label>
           <select id="sizes">
             <option>Fitted: XS</option>
@@ -50,49 +50,48 @@
             <option>Straight-cut: XL</option>
           </select>
         </div>
-        <div class="push unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+        <div class="push gutter-1-4 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
           <label for="email">Your email</label>
           <input id="email" type="email" placeholder="me@me.com" required>
         </div>
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+        <div class="push gutter-1-4 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <label for="tel">Phone number (optional)</label>
             <input id="tel" required>
         </div>
       </div>
-      <div class="push">
-        <h2>Address</h2>
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+      <h2>Address</h2>
+      <div class="grid">
+        <div class="push gutter-1-4 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <label for="address">Street address</label>
             <input id="address" required>
         </div>
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+        <div class="push gutter-1-4 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <label for="city">City</label>
             <input id="city" required>
         </div>
-        <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+        <div class="push gutter-1-4 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <label for="postalcode">Postal code</label>
             <input id="postalcode" required>
         </div>
+        <div class="push gutter-1-4 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
+          <label for="province">Province</label>
+          <select id="province" name="Select a province">
+            <option>Alberta</option>
+            <option>British Columbia</option>
+            <option>Manitoba</option>
+            <option>New Brunswick</option>
+            <option>Newfoundland & Labrador</option>
+            <option>Northwest Territories</option>
+            <option>Nova Scotia</option>
+            <option>Nunavut</option>
+            <option>Ontario</option>
+            <option>Prince Edward Island</option>
+            <option>Québec</option>
+            <option>Saskatchewan</option>
+            <option>Yukon</option>
+          </select>
+        </div>
       </div>
-      <div class="push unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
-        <label for="province">Province</label>
-        <select id="province" name="Select a province">
-          <option>Alberta</option>
-          <option>British Columbia</option>
-          <option>Manitoba</option>
-          <option>New Brunswick</option>
-          <option>Newfoundland & Labrador</option>
-          <option>Northwest Territories</option>
-          <option>Nova Scotia</option>
-          <option>Nunavut</option>
-          <option>Ontario</option>
-          <option>Prince Edward Island</option>
-          <option>Québec</option>
-          <option>Saskatchewan</option>
-          <option>Yukon</option>
-        </select>
-      </div>
-
       <fieldset class="push">
         <legend class="bold">What activities are you interested in helping with?</legend>
         <div class="grid">
