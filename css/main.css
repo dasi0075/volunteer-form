@@ -22,8 +22,15 @@ html {
   padding-top: 1.5em;
 }
 
+fieldset {
+  border: none;
+}
+
+select,
 input,
-select {
+textarea,
+input [type="checkbox"] + label::before,
+input [type="radio"] + label::before {
   border-color: #6e8c62;
 }
 
@@ -31,14 +38,18 @@ i {
   color: #70ad55;
 }
 
-.personal {
-  padding-top: 2em;
-}
-
 label {
-  padding-bottom: .3rem;
+  padding-bottom: .2rem;
 }
 
 p {
   margin: 0;
+}
+
+.border {
+  border-bottom: 2px thin #70ad55;
+}
+
+hr {
+  border-color: #70ad55;
 }
