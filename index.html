@@ -17,17 +17,17 @@
       <p class="strong mega">Trees are one of the world’s most precious renewable resources—we need your help to renew the ecosystem.</p>
     </header>
     <div class="gutter-1-4 wrapper">
-      <h2 class="pad-t-1-2">Personal details</h2>
+      <h2 class="pad-t-1-2 kilo personal">Personal details</h2>
       <div class="grid push">
         <div class="gutter-1-4 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
           <label for="name">Full name</label>
           <input id="name" name="Fullname">
-          <p class="nano">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
+          <p class="nano italic">Your full legal name, for insurance purposes, e.g. “Elizabeth Bradley”.</p>
         </div>
         <div class="gutter-1-4 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
           <label for="nickname">What should we call you?</label>
           <input id="nickname" required>
-          <p class="nano">What all your friends call you, e.g. “Liz”.</p>
+          <p class="nano italic">What all your friends call you, e.g. “Liz”.</p>
         </div>
       </div>
       <div class="grid push">
@@ -59,7 +59,7 @@
             <input id="tel" required>
         </div>
       </div>
-      <h2>Address</h2>
+      <h2 class="kilo">Address</h2>
       <div class="grid">
         <div class="push gutter-1-4 unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <label for="address">Street address</label>
@@ -105,6 +105,8 @@
             <input id="driving" type="checkbox">
             <label for="driving">Driving people</label>
           </div>
+        </div>
+        <div class="grid">
           <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2">
             <input id="transporting" type="checkbox">
             <label for="transporting">Transporting trees</label>
@@ -120,31 +122,35 @@
       <fieldset class="push">
         <legend>Do you have any experience with the following?</legend>
         <div class="grid">
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island">
-            <input id="shovels" type="checkbox">
-            <label for="shovels">Shovels</label>
-            <input id="gps" type="checkbox">
-            <label for="gps">Hand-held GPS</label>
-            <input id="blogging" type="checkbox">
-            <label for="blogging">Writing & blogging</label>
-            <input id="photography" type="checkbox">
-            <label for="photography">Photography</label>
-            <input id="trail" type="checkbox">
-            <label for="trail">Trail & hill climbing</label>
+          <div class="grid">
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island">
+              <input id="shovels" type="checkbox">
+              <label for="shovels">Shovels</label>
+              <input id="gps" type="checkbox">
+              <label for="gps">Hand-held GPS</label>
+              <input id="blogging" type="checkbox">
+              <label for="blogging">Writing & blogging</label>
+              <input id="photography" type="checkbox">
+              <label for="photography">Photography</label>
+              <input id="trail" type="checkbox">
+              <label for="trail">Trail & hill climbing</label>
+            </div>
           </div>
-          <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island">
-            <input id="bush" type="checkbox">
-            <label for="bush">Bush craft</label>
-            <input id="atv" type="checkbox">
-            <label for="atv">ATVs</label>
-            <input id="plant" type="checkbox">
-            <label for="plant">Plant identification</label>
-            <input id="event" type="checkbox">
-            <label for="event">Special event planning</label>
-            <input id="speaking" type="checkbox">
-            <label for="speaking">Speaking to groups</label>
+          <div class="grid">
+            <div class="unit xs-1 s-1 m-1-2 l-1-2 xl-1-2 island">
+              <input id="bush" type="checkbox">
+              <label for="bush">Bush craft</label>
+              <input id="atv" type="checkbox">
+              <label for="atv">ATVs</label>
+              <input id="plant" type="checkbox">
+              <label for="plant">Plant identification</label>
+              <input id="event" type="checkbox">
+              <label for="event">Special event planning</label>
+              <input id="speaking" type="checkbox">
+              <label for="speaking">Speaking to groups</label>
+            </div>
           </div>
-        </div>
+      </div>
       </fieldset>
       <div>
         <fieldset class="push">
@@ -170,7 +176,7 @@
         </fieldset>
         <div class="push">
           <label for="details">Please let us know any comments or questions you may have.<i>(optional)</i></label>
-          <textarea id="details" required></textarea>
+          <textarea id="details"></textarea>
         </div>
         <div class="center-text">
           <button class="btn btn-light push" type="submit">Apply</button>
