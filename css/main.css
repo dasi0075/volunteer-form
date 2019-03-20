@@ -22,6 +22,7 @@ html {
   padding-top: 1.5em;
 }
 
-.fieldset {
+input,
+select {
   border: 2px solid #70ad55;
 }
