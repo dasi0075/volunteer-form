@@ -29,9 +29,16 @@ select {
 
 i {
   color: #70ad55;
-  font-size: .8rem;
 }
 
 .personal {
   padding-top: 2em;
+}
+
+label {
+  padding-bottom: .3rem;
+}
+
+p {
+  margin: 0;
 }
