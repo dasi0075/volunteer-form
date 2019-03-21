@@ -29,8 +29,8 @@ fieldset {
 select,
 input,
 textarea,
-input [type="checkbox"] + label::before,
-input [type="radio"] + label::before {
+input[type="checkbox"] + label::before,
+input[type="radio"] + label::before {
   border-color: #6e8c62;
 }
 
