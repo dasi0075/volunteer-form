@@ -55,3 +55,11 @@ hr {
   border-color: #70ad55;
   margin: 0;
 }
+
+@media only screen and (min-width: 38em) {
+
+}
+
+@media only screen and (min-width: 60em) {
+
+}
