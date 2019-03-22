@@ -11,16 +11,12 @@ html {
 
 .footer {
   color: #fff;
-  padding: 1em;
   background-color: #70ad55;
 }
 
 .header {
   background-color: #70ad55;
   color: #fff;
-  padding: 1em;
-  padding-top: 1.5em;
-  padding-bottom: 1.8em;
 }
 
 fieldset {
@@ -39,23 +35,10 @@ i {
   color: #70ad55;
 }
 
-label {
-  padding-bottom: .2rem;
-}
-
-p {
-  margin: 0;
-}
-
 .border {
   border-bottom: 2px thin #70ad55;
 }
 
 hr {
   border-color: #70ad55;
-  margin: 0;
-}
-
-.hr-footer {
-  margin-top: 3rem;
 }
