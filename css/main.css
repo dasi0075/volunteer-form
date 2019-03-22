@@ -20,7 +20,7 @@ html {
   color: #fff;
   padding: 1em;
   padding-top: 1.5em;
-  padding-bottom: 1.5em;
+  padding-bottom: 2em;
 }
 
 fieldset {
@@ -54,4 +54,8 @@ p {
 hr {
   border-color: #70ad55;
   margin: 0;
+}
+
+.hr-footer {
+  margin-top: 3rem;
 }
